@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681222060242",
+    "project_id": "blocexpensetracker",
+    "storage_bucket": "blocexpensetracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681222060242:android:8b4d9a5bb0a77fd224d50b",
+        "android_client_info": {
+          "package_name": "com.example.bloc_expense_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxgwmkzjfPGr92uFjAsb1Mfqh_csYhBHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
