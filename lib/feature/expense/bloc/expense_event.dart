@@ -1,8 +1,8 @@
-import 'package:bloc_expense_tracker/feature/expense/model/expense_model.dart';
+import '../model/expense_model.dart';
 
 abstract class ExpenseEvent {}
 
-class LoadExpense extends ExpenseEvent {}
+class LoadExpenses extends ExpenseEvent {}
 
 class AddExpense extends ExpenseEvent {
   final ExpenseModel expense;

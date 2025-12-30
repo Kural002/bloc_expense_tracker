@@ -9,7 +9,7 @@ class ExpenseRepository {
     await _collection.add(expense.toMap());
   }
 
-  Stream<List<ExpenseModel>> getExpense() {
+  Stream<List<ExpenseModel>> getExpenses() {
     return _collection.snapshots().map((snapshot) {
       return snapshot.docs.map((doc) {
         return ExpenseModel.fromMap(doc.id, doc.data());
