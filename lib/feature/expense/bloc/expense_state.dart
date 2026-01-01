@@ -1,9 +1,11 @@
+import '../model/expense_model.dart';
+
 abstract class ExpenseState {}
 
-class ExpenseLaoding extends ExpenseState {}
+class ExpenseLoading extends ExpenseState {}
 
 class ExpenseLoaded extends ExpenseState {
-  final List expenses;
+  final List<ExpenseModel> expenses;
   ExpenseLoaded(this.expenses);
 }
 
